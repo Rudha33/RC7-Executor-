@@ -1,0 +1,181 @@
+[2025-03-27 19:18:52] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:52] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:52] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:52] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:52] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:52] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:52] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:52] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:53] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:53] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:53] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:53] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:53] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:53] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:53] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:53] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:54] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:55] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:56] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:56] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:56] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:56] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:56] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:56] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:56] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:56] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:57] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:58] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:58] [Info] Notification sent to clients.
+[2025-03-27 19:18:58] [Info] Notification executed.
+[2025-03-27 19:18:58] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:58] [Debug] IsInjected check: False
+[2025-03-27 19:18:58] [Warning] Injection aborted: No clients available.
+[2025-03-27 19:18:59] [Debug] Executing script...
+[2025-03-27 19:18:59] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:59] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:18:59] [Info] Script executed successfully.
+[2025-03-27 19:19:33] [Debug] Executing script...
+[2025-03-27 19:19:33] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:19:33] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:19:33] [Info] Script executed successfully.
+[2025-03-27 19:41:11] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:11] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:41:14] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:14] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:14] [Debug] Client(s) detected. Waiting for stabilization.
+[2025-03-27 19:41:17] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:18] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:18] [Info] Notification sent to clients.
+[2025-03-27 19:41:18] [Info] Notification executed.
+[2025-03-27 19:41:18] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:18] [Debug] IsInjected check: True
+[2025-03-27 19:41:18] [Debug] Executing script...
+[2025-03-27 19:41:18] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:18] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:18] [Info] Script executed successfully.
+[2025-03-27 19:41:18] [Info] Protection script executed.
+[2025-03-27 19:41:18] [Debug] Executing script...
+[2025-03-27 19:41:18] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:18] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:18] [Info] Script executed successfully.
+[2025-03-27 19:41:18] [Info] User agent script executed.
+[2025-03-27 19:41:19] [Debug] Executing script...
+[2025-03-27 19:41:19] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:19] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:41:19] [Info] Script executed successfully.
+[2025-03-27 19:42:31] [Debug] Executing script...
+[2025-03-27 19:42:31] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:42:31] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:42:31] [Info] Script executed successfully.
+[2025-03-27 19:46:09] [Info] Injection process started.
+[2025-03-27 19:46:09] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:09] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:09] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:09] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:10] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:10] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:10] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:10] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:10] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:10] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:10] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:10] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:11] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:11] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:11] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:11] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:11] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:11] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:12] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:13] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:14] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:15] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:16] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:16] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:16] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:16] [Info] Notification sent to clients.
+[2025-03-27 19:46:16] [Info] Notification executed.
+[2025-03-27 19:46:16] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:16] [Debug] IsInjected check: False
+[2025-03-27 19:46:16] [Warning] Injection aborted: No clients available.
+[2025-03-27 19:46:18] [Debug] Executing script...
+[2025-03-27 19:46:18] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:18] [Debug] Retrieved 0 client(s).
+[2025-03-27 19:46:18] [Info] Script executed successfully.
+[2025-03-27 19:46:49] [Debug] Executing script...
+[2025-03-27 19:46:49] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:46:49] [Debug] Retrieved 1 client(s).
+[2025-03-27 19:46:49] [Info] Script executed successfully.

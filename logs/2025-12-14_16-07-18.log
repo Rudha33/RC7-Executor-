@@ -1,0 +1,47 @@
+[2025-12-14 16:07:18.377] [Xeno] [trace] Xeno is only maintained by Rizve. If you find any bugs, have any question, or just want to chat email me rizve@xeno.onl or DM me on Discord: .rizve
+[2025-12-14 16:07:18.378] [Xeno] [info] Version: Xeno - v1.3.10
+[2025-12-14 16:07:18.378] [Xeno] [info] Log file: C:\Users\rudha\Desktop\RC7 Exploit Engine\RC7 [Blue-Theme]\logs\2025-12-14_16-07-18.log
+[2025-12-14 16:07:18.384] [Xeno] [debug] Client Checker thread: 0x8fd4f0
+[2025-12-14 16:07:18.385] [Xeno] [debug] Xeno Caching thread: 0x8fd4e0
+[2025-12-14 16:07:18.385] [Xeno] [debug] WebSockets Cleaner thread: 0x8fd4d0
+[2025-12-14 16:07:18.385] [Xeno] [debug] Xeno Server thread: 0x8fd4c0
+[2025-12-14 16:07:18.385] [Cache] [info] Caching file: C:\Users\rudha\AppData\Local\Xeno\XENO_CACHE.bin
+[2025-12-14 16:07:18.388] [Server] [info] Xeno Server is Live on http://localhost:3110
+[2025-12-14 16:07:18.388] [Server] [info] Visit http://localhost:3110 to view any additional information
+[2025-12-14 16:07:18.404] [Xeno] [info] Creating new RBXClient: 15964
+[2025-12-14 16:07:18.404] [RBXClient] [info] [15964]: Initializing...
+[2025-12-14 16:07:18.405] [RBXClient] [info] [15964]: Version: version-eaebe135b3ec446b
+[2025-12-14 16:07:18.405] [Xeno] [debug] Created RBXClient instance @0x1c23afd0
+[2025-12-14 16:07:18.405] [Xeno] [info] Successfully created RBXClient: 15964
+[2025-12-14 16:07:18.405] [RBXClient] [trace] [15964]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-14 16:07:18.488] [RBXClient] [trace] [15964]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-14 16:07:18.489] [RBXClient] [debug] [15964]: Fetching DataModel...
+[2025-12-14 16:07:18.716] [RBXClient] [debug] [15964]: 	String: 0x2e037ae2c50
+[2025-12-14 16:07:18.716] [RBXClient] [debug] [15964]: 	RenderView: 0x2e027864000
+[2025-12-14 16:07:18.720] [RBXClient] [debug] [15964]: DataModel (Ugc): 0x2e02ca28638
+[2025-12-14 16:07:18.722] [RBXClient] [debug] [15964]: LocalPlayer: 0x2e0349cb080
+[2025-12-14 16:07:18.724] [RBXClient] [debug] [rudhagsi (15964)]: LocalPlayer Name: 'rudhagsi'
+[2025-12-14 16:07:18.728] [RBXClient] [trace] [rudhagsi (15964)]: Attaching in-game using translation module.
+[2025-12-14 16:07:18.730] [RBXClient] [debug] [rudhagsi (15964)]: EventConnection: 0x2e02e3c0080, SharedString: 0x2e032dc2300
+[2025-12-14 16:07:19.223] [RBXClient] [trace] [rudhagsi (15964)]: Intercepted translation module @0x2e02e3c2fc0
+[2025-12-14 16:07:19.294] [RBXClient] [trace] [rudhagsi (15964)]: Attach ping received from client "rudhagsi", This indicates everything was successful.
+[2025-12-14 16:14:15.042] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:14:15.094] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:21:42.111] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:21:42.297] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:24:24.651] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:24:24.774] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:26:00.665] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:26:00.789] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:32:34.491] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:32:34.610] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:35:43.123] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:35:43.251] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:40:19.433] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:40:19.552] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:42:08.535] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:42:08.655] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:45:57.648] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: Waiting for DataModel
+[2025-12-14 16:45:57.766] [RBXClient] [trace] [rudhagsi (15964)][::CRefresh]: DataModel was loaded successfully
+[2025-12-14 16:47:51.953] [Xeno] [info] Removed RBXClient: 15964
+[2025-12-14 16:47:56.959] [Xeno] [info] Cleaned up '15964' from InitializedClients

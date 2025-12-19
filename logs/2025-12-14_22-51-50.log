@@ -1,0 +1,37 @@
+[2025-12-14 22:51:50.103] [Xeno] [trace] Xeno is only maintained by Rizve. If you find any bugs, have any question, or just want to chat email me rizve@xeno.onl or DM me on Discord: .rizve
+[2025-12-14 22:51:50.104] [Xeno] [info] Version: Xeno - v1.3.10
+[2025-12-14 22:51:50.104] [Xeno] [info] Log file: C:\Users\rudha\Desktop\RC7 Exploit Engine\RC7 [Blue-Theme]\logs\2025-12-14_22-51-50.log
+[2025-12-14 22:51:50.110] [Xeno] [debug] Client Checker thread: 0x11cd480
+[2025-12-14 22:51:50.110] [Xeno] [debug] Xeno Caching thread: 0x11cd470
+[2025-12-14 22:51:50.110] [Xeno] [debug] WebSockets Cleaner thread: 0x11cd460
+[2025-12-14 22:51:50.111] [Cache] [info] Caching file: C:\Users\rudha\AppData\Local\Xeno\XENO_CACHE.bin
+[2025-12-14 22:51:50.111] [Xeno] [debug] Xeno Server thread: 0x11cd450
+[2025-12-14 22:51:50.113] [Cache] [warning] Invalid or corrupted cache header (file: C:\Users\rudha\AppData\Local\Xeno\XENO_CACHE.bin)
+[2025-12-14 22:51:50.113] [Cache] [warning] No valid cache found (Starting new fresh cache)
+[2025-12-14 22:51:50.113] [Cache] [info] Inviting you to our Official Discord server :D https://discord.gg/xe-no
+[2025-12-14 22:51:50.114] [Server] [info] Xeno Server is Live on http://localhost:3110
+[2025-12-14 22:51:50.114] [Server] [info] Visit http://localhost:3110 to view any additional information
+[2025-12-14 22:51:50.136] [Xeno] [info] Creating new RBXClient: 15356
+[2025-12-14 22:51:50.136] [RBXClient] [info] [15356]: Initializing...
+[2025-12-14 22:51:50.137] [RBXClient] [info] [15356]: Version: version-eaebe135b3ec446b
+[2025-12-14 22:51:50.137] [Xeno] [debug] Created RBXClient instance @0x256ae760
+[2025-12-14 22:51:50.137] [Xeno] [info] Successfully created RBXClient: 15356
+[2025-12-14 22:51:50.137] [RBXClient] [trace] [15356]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-14 22:51:50.233] [RBXClient] [trace] [15356]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-14 22:51:50.234] [RBXClient] [debug] [15356]: Fetching DataModel...
+[2025-12-14 22:51:50.313] [RBXClient] [debug] [15356]: 	String: 0x2000b686850
+[2025-12-14 22:51:50.313] [RBXClient] [debug] [15356]: 	RenderView: 0x20004634000
+[2025-12-14 22:51:50.316] [RBXClient] [debug] [15356]: DataModel (LuaApp): 0x20001b5c238
+[2025-12-14 22:51:50.318] [RBXClient] [debug] [15356]: LocalPlayer: 0x20008890080
+[2025-12-14 22:51:50.319] [RBXClient] [debug] [rudhaFSI (15356)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-14 22:51:50.319] [RBXClient] [trace] [rudhaFSI (15356)]: Attaching through the home page.
+[2025-12-14 22:51:50.775] [RBXClient] [debug] [rudhaFSI (15356)]: SharedString: 0x2000373b900
+[2025-12-14 22:51:50.780] [RBXClient] [debug] [rudhaFSI (15356)]: SharedString: 0x2000470f5c0
+[2025-12-14 22:51:50.781] [RBXClient] [debug] [rudhaFSI (15356)]: SharedString: 0x2000880ee80
+[2025-12-14 22:51:50.802] [RBXClient] [debug] [rudhaFSI (15356)]: SharedString: 0x20009c72100
+[2025-12-14 22:51:50.821] [RBXClient] [info] [rudhaFSI (15356)]: Bytecode has been successfully set in menu.
+[2025-12-14 22:51:54.319] [Execution] [error] [15356]: Could not find a CoreModule
+[2025-12-14 22:51:54.365] [Execution] [error] [15356]: Could not find a CoreModule
+[2025-12-14 22:53:25.665] [Execution] [error] [15356]: Could not find a CoreModule
+[2025-12-14 22:53:25.991] [RBXClient] [trace] [rudhaFSI (15356)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-14 22:54:30.878] [Xeno] [info] Removed RBXClient: 15356

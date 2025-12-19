@@ -1,0 +1,28 @@
+[2025-12-13 14:34:14.303] [Xeno] [trace] Xeno is only maintained by Rizve. If you find any bugs, have any question, or just want to chat email me rizve@xeno.onl or DM me on Discord: .rizve
+[2025-12-13 14:34:14.304] [Xeno] [info] Version: Xeno - v1.3.10
+[2025-12-13 14:34:14.305] [Xeno] [info] Log file: C:\Users\rudha\Desktop\RC7 Exploit Engine\RC7 [Blue-Theme]\logs\2025-12-13_14-34-14.log
+[2025-12-13 14:34:14.310] [Xeno] [debug] Client Checker thread: 0xfcbe60
+[2025-12-13 14:34:14.310] [Xeno] [debug] Xeno Caching thread: 0xfcbe50
+[2025-12-13 14:34:14.310] [Xeno] [debug] WebSockets Cleaner thread: 0xfcbe40
+[2025-12-13 14:34:14.311] [Cache] [info] Caching file: C:\Users\rudha\AppData\Local\Xeno\XENO_CACHE.bin
+[2025-12-13 14:34:14.311] [Xeno] [debug] Xeno Server thread: 0xfcbe30
+[2025-12-13 14:34:14.311] [Cache] [info] Reattaching to cached client PID: 12956
+[2025-12-13 14:34:14.311] [Cache] [info] Loaded existing cache: 1 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 1 RBXClientInfos
+[2025-12-13 14:34:14.311] [Xeno] [info] Creating new RBXClient: 12956
+[2025-12-13 14:34:14.312] [RBXClient] [info] [12956]: Initializing...
+[2025-12-13 14:34:14.313] [RBXClient] [info] [12956]: Version: version-eaebe135b3ec446b
+[2025-12-13 14:34:14.313] [Xeno] [debug] Created RBXClient instance @0x1c0c5df0
+[2025-12-13 14:34:14.313] [Xeno] [info] Successfully created RBXClient: 12956
+[2025-12-13 14:34:14.313] [RBXClient] [trace] [12956]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-13 14:34:14.314] [Server] [info] Xeno Server is Live on http://localhost:3110
+[2025-12-13 14:34:14.314] [Server] [info] Visit http://localhost:3110 to view any additional information
+[2025-12-13 14:34:16.281] [RBXClient] [trace] [12956]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-13 14:34:16.283] [Cache] [trace] [12956]: Client was previously activated and handled successfully
+[2025-12-13 14:34:16.283] [RBXClient] [info] [12956]: RenderView retrieved from Cache: 0x22195ee4000
+[2025-12-13 14:34:16.285] [RBXClient] [debug] [12956]: DataModel (LuaApp): 0x2218aa9c238
+[2025-12-13 14:34:16.288] [RBXClient] [debug] [12956]: LocalPlayer: 0x2218cfb0080
+[2025-12-13 14:34:16.288] [RBXClient] [debug] [rudhaFSI (12956)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-13 14:34:16.289] [RBXClient] [info] [rudhaFSI (12956)]: Bytecode was already set in menu. (cached)
+[2025-12-13 14:34:18.457] [Execution] [error] [12956]: Could not find a CoreModule
+[2025-12-13 14:34:18.477] [Execution] [error] [12956]: Could not find a CoreModule
+[2025-12-13 14:35:26.145] [Execution] [error] [12956]: Could not find a CoreModule

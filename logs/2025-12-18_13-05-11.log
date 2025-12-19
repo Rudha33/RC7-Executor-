@@ -1,0 +1,26 @@
+[2025-12-18 13:05:11.072] [Xeno] [trace] Xeno is only maintained by Rizve. If you find any bugs, have any question, or just want to chat email me rizve@xeno.onl or DM me on Discord: .rizve
+[2025-12-18 13:05:11.073] [Xeno] [info] Version: Xeno - v1.3.10
+[2025-12-18 13:05:11.073] [Xeno] [info] Log file: C:\Users\rudha\Desktop\RC7 Exploit Engine\RC7 [Blue-Theme]\logs\2025-12-18_13-05-11.log
+[2025-12-18 13:05:11.079] [Xeno] [debug] Client Checker thread: 0xefd790
+[2025-12-18 13:05:11.080] [Xeno] [debug] Xeno Caching thread: 0xefd780
+[2025-12-18 13:05:11.080] [Xeno] [debug] WebSockets Cleaner thread: 0xefd770
+[2025-12-18 13:05:11.080] [Cache] [info] Caching file: C:\Users\rudha\AppData\Local\Xeno\XENO_CACHE.bin
+[2025-12-18 13:05:11.080] [Xeno] [debug] Xeno Server thread: 0xefd760
+[2025-12-18 13:05:11.081] [Cache] [info] Reattaching to cached client PID: 6108
+[2025-12-18 13:05:11.081] [Cache] [info] Loaded existing cache: 1 RBXClients, 0 RBXBytecode, 0 RBXMFlags, 1 RBXClientInfos
+[2025-12-18 13:05:11.081] [Xeno] [info] Creating new RBXClient: 6108
+[2025-12-18 13:05:11.082] [RBXClient] [info] [6108]: Initializing...
+[2025-12-18 13:05:11.082] [RBXClient] [info] [6108]: Version: version-eaebe135b3ec446b
+[2025-12-18 13:05:11.083] [Xeno] [debug] Created RBXClient instance @0x1b401d40
+[2025-12-18 13:05:11.083] [Xeno] [info] Successfully created RBXClient: 6108
+[2025-12-18 13:05:11.083] [RBXClient] [trace] [6108]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-18 13:05:11.083] [Server] [info] Xeno Server is Live on http://localhost:3110
+[2025-12-18 13:05:11.083] [Server] [info] Visit http://localhost:3110 to view any additional information
+[2025-12-18 13:05:11.158] [RBXClient] [trace] [6108]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-18 13:05:11.159] [Cache] [trace] [6108]: Client was previously activated and handled successfully
+[2025-12-18 13:05:11.159] [RBXClient] [info] [6108]: RenderView retrieved from Cache: 0x1e1cba34000
+[2025-12-18 13:05:11.162] [RBXClient] [debug] [6108]: DataModel (Ugc): 0x1e1da193e38
+[2025-12-18 13:05:11.164] [RBXClient] [debug] [6108]: LocalPlayer: 0x1e1f5d26080
+[2025-12-18 13:05:11.164] [RBXClient] [debug] [rudhaFSI (6108)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-18 13:05:11.165] [RBXClient] [info] [rudhaFSI (6108)]: Client was already attached, handling important core functions for the client :D
+[2025-12-18 13:14:12.959] [Execution] [error] [6108]: Could not find a CoreModule

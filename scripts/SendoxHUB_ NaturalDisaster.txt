@@ -1,0 +1,407 @@
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "SendoX",
+    Text = "Welcome To Sendox...",
+    Duration = 5
+})
+wait(1)
+
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+local SaveManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/SaveManager.lua"))()
+local InterfaceManager = loadstring(game:HttpGet("https://raw.githubusercontent.com/dawid-scripts/Fluent/master/Addons/InterfaceManager.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "SendoX Hub | discord.gg/sendox",
+    SubTitle = "by k4sii and burden_cfr",
+    TabWidth = 120,
+    Size = UDim2.fromOffset(580, 460),
+    Acrylic = true,
+    Theme = "Dark",
+    MinimizeKey = Enum.KeyCode.RightControl
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Character", Icon = "user" }),
+    Autofarm = Window:AddTab({ Title = "AutoWin", Icon = "zap" }),
+    BlackHole = Window:AddTab({ Title = "BlackHole", Icon = "circle" }),
+    Teleports = Window:AddTab({ Title = "Teleports", Icon = "map-pin" }),
+    DisasterLog = Window:AddTab({ Title = "Disasters", Icon = "alert-triangle" }),
+    Misc = Window:AddTab({ Title = "Misc", Icon = "settings" }),
+    Settings = Window:AddTab({ Title = "Settings", Icon = "settings" })
+}
+
+Window:SelectTab(1)
+
+local hiddenfling = false
+
+Tabs.Main:AddButton({
+    Title = "Bypass Fall Damage",
+    Description = "Enable Bypass Fall Damage",
+    Callback = function()
+        local function executeScript()
+            for i = 1, 100 do
+                local player = game:GetService("Players").LocalPlayer
+        
+                local function preventDeath(character)
+                    local humanoid = character:WaitForChild("Humanoid")
+        
+                    humanoid.HealthChanged:Connect(function(health)
+                        if health <= 1 then
+                            humanoid.Health = math.huge
+                        end
+                    end)
+        
+                    humanoid:GetPropertyChangedSignal("Health"):Connect(function()
+                        humanoid.HealthDisplayType = Enum.HumanoidHealthDisplayType.AlwaysOff
+                    end)
+                end
+        
+                local function onCharacterAdded(character)
+                    preventDeath(character)
+                end
+        
+                player.CharacterAdded:Connect(function(character)
+                    onCharacterAdded(character)
+                end)
+        
+                if player.Character then
+                    onCharacterAdded(player.Character)
+                end
+            end
+        end
+        
+        executeScript()
+        
+        game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function()
+            executeScript()
+        end)
+    end  
+})
+
+Tabs.Main:AddButton({
+    Title = "Set SpawnPoint",
+    Description = "Set a spawnpoint where u died",
+    Callback = function()
+        function log() deadpos = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame end
+        game.Players.LocalPlayer.Character.Humanoid.Died:Connect(log)
+        game.Players.LocalPlayer.CharacterAdded:Connect(function(char)
+            char:WaitForChild("Humanoid", 2).Died:Connect(log)
+            char:WaitForChild("HumanoidRootPart", 2).CFrame = deadpos
+        end)
+    end 
+})
+
+Tabs.Main:AddButton({
+    Title = "Run IY",
+    Description = "Useless with bypass commands: Fly, infjump",
+    Callback = function()
+        loadstring(game:HttpGet("https://infyiff.github.io/resources/IY_FE.txt", true))()
+    end 
+})
+
+local teleportActive = false
+local targetPosition = CFrame.new(-322.269989, 179.75, 330.423706, 0.8511132, 8.37962943e-08, -0.524982214, -7.59907053e-08, 1, 3.64195287e-08, 0.524982214, 8.89662566e-09, 0.8511132)
+
+Tabs.Autofarm:AddToggle("Toggle Infinite TP", {
+    Title = "AutoWin",
+    Description = "AutoWins Automatic",
+    Default = false,
+    Callback = function(Value)
+        teleportActive = Value
+        if teleportActive then
+            while teleportActive do
+                game:GetService("Players").LocalPlayer.Character:SetPrimaryPartCFrame(targetPosition)
+                wait(0.3)  
+            end
+        end
+    end
+})
+
+game:GetService("Players").LocalPlayer.CharacterAdded:Connect(function()
+    teleportActive = false
+end)
+
+local Players = game:GetService("Players")
+local RunService = game:GetService("RunService")
+local Workspace = game:GetService("Workspace")
+
+local LocalPlayer = Players.LocalPlayer
+local angle = 1
+local radius = 10
+local blackHoleActive = false
+local humanoidRootPart, Attachment1
+
+local function setupPlayer()
+    local character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
+    local humanoidRootPart = character:WaitForChild("HumanoidRootPart")
+    local Folder = Instance.new("Folder", Workspace)
+    local Part = Instance.new("Part", Folder)
+    local Attachment1 = Instance.new("Attachment", Part)
+    Part.Anchored = true
+    Part.CanCollide = false
+    Part.Transparency = 1
+    return humanoidRootPart, Attachment1
+end
+
+humanoidRootPart, Attachment1 = setupPlayer()
+
+if not getgenv().Network then
+    getgenv().Network = {
+        BaseParts = {},
+        Velocity = Vector3.new(14.46262424, 14.46262424, 14.46262424)
+    }
+
+    Network.RetainPart = function(part)
+        if typeof(part) == "Instance" and part:IsA("BasePart") and part:IsDescendantOf(Workspace) then
+            table.insert(Network.BaseParts, part)
+            part.CustomPhysicalProperties = PhysicalProperties.new(0, 0, 0, 0, 0)
+            part.CanCollide = false
+        end
+    end
+
+    local function EnablePartControl()
+        LocalPlayer.ReplicationFocus = Workspace
+        RunService.Heartbeat:Connect(function()
+            sethiddenproperty(LocalPlayer, "SimulationRadius", math.huge)
+            for _, part in pairs(Network.BaseParts) do
+                if part:IsDescendantOf(Workspace) then
+                    part.Velocity = Network.Velocity
+                end
+            end
+        end)
+    end
+
+    EnablePartControl()
+end
+
+local function ForcePart(v)
+    if v:IsA("Part") and not v.Anchored and not v.Parent:FindFirstChild("Humanoid") and not v.Parent:FindFirstChild("Head") and v.Name ~= "Handle" then
+        for _, x in next, v:GetChildren() do
+            if x:IsA("BodyAngularVelocity") or x:IsA("BodyForce") or x:IsA("BodyGyro") or x:IsA("BodyPosition") or x:IsA("BodyThrust") or x:IsA("BodyVelocity") or x:IsA("RocketPropulsion") then
+                x:Destroy()
+            end
+        end
+        if v:FindFirstChild("Attachment") then
+            v:FindFirstChild("Attachment"):Destroy()
+        end
+        if v:FindFirstChild("AlignPosition") then
+            v:FindFirstChild("AlignPosition"):Destroy()
+        end
+        if v:FindFirstChild("Torque") then
+            v:FindFirstChild("Torque"):Destroy()
+        end
+        v.CanCollide = false
+
+        local Torque = Instance.new("Torque", v)
+        Torque.Torque = Vector3.new(1000000, 1000000, 1000000)
+        local AlignPosition = Instance.new("AlignPosition", v)
+        local Attachment2 = Instance.new("Attachment", v)
+        Torque.Attachment0 = Attachment2
+        AlignPosition.MaxForce = math.huge
+        AlignPosition.MaxVelocity = math.huge
+        AlignPosition.Responsiveness = 500
+        AlignPosition.Attachment0 = Attachment2
+        AlignPosition.Attachment1 = Attachment1
+    end
+end
+
+local function updateBlackHole()
+    if blackHoleActive then
+        for _, v in next, Workspace:GetDescendants() do
+            ForcePart(v)
+        end
+
+        Workspace.DescendantAdded:Connect(function(v)
+            if blackHoleActive then
+                ForcePart(v)
+            end
+        end)
+
+        spawn(function()
+            while blackHoleActive and RunService.RenderStepped:Wait() do
+                angle = angle + math.rad(2)
+                local offsetX = math.cos(angle) * radius
+                local offsetZ = math.sin(angle) * radius
+                Attachment1.WorldCFrame = humanoidRootPart.CFrame * CFrame.new(offsetX, 0, offsetZ)
+            end
+        end)
+    else
+        Attachment1.WorldCFrame = CFrame.new(0, -1000, 0)
+    end
+end
+
+Tabs.BlackHole:AddSlider("Radius Blackhole", {
+    Title = "Radius",
+    Description = "Adjust the blackhole radius",
+    Default = 10,
+    Min = 1,
+    Max = 1000,
+    Rounding = 1,
+    Callback = function(Value)
+        radius = Value
+    end
+})
+
+Tabs.BlackHole:AddToggle("Toggle Blackhole", {
+    Title = "Enable Blackhole",
+    Default = false,
+    Callback = function(Value)
+        blackHoleActive = Value
+        updateBlackHole()
+    end
+})
+
+LocalPlayer.CharacterAdded:Connect(function()
+    humanoidRootPart, Attachment1 = setupPlayer()
+    if blackHoleActive then
+        updateBlackHole()
+    end
+end)
+
+local function fling()
+    local RunService = game:GetService("RunService")
+    local Players = game:GetService("Players")
+    local lp = Players.LocalPlayer
+    local c, hrp, vel, movel = nil, nil, nil, 0.1
+
+    while hiddenfling do
+        RunService.Heartbeat:Wait()
+        c = lp.Character
+        hrp = c and c:FindFirstChild("HumanoidRootPart")
+
+        if hrp then
+            vel = hrp.Velocity
+            hrp.Velocity = vel * 10000 + Vector3.new(0, 10000, 0)
+            RunService.RenderStepped:Wait()
+            hrp.Velocity = vel
+            RunService.Stepped:Wait()
+            hrp.Velocity = vel + Vector3.new(0, movel, 0)
+            movel = -movel
+        end
+    end
+end
+
+Tabs.Misc:AddButton({
+    Title = "Enable Fling",
+    Description = "Dont use with bypass! else you will die",
+    Callback = function()
+        hiddenfling = not hiddenfling
+        if hiddenfling then
+            coroutine.wrap(fling)()
+        end
+    end
+})
+
+local function teleportTo(cframe)
+    if humanoidRootPart then
+        humanoidRootPart.CFrame = cframe
+    end
+end
+
+local LobbyCFrame = CFrame.new(-236.889038, 194.649948, 299.366394, 0.796975732, 5.34902824e-08, -0.604011357, -7.6933425e-08, 1, -1.29530475e-08, 0.604011357, 5.67919258e-08, 0.796975732)
+local MapCFrame = CFrame.new(-114.583824, 47.9525757, 14.1292725, 0.796969533, -3.51216727e-08, -0.604019523, 5.05129485e-08, 1, 8.5023828e-09, 0.604019523, -3.72869451e-08, 0.796969533)
+
+Tabs.Teleports:AddButton({
+    Title = "Teleport to Lobby",
+    Description = "Teleports you to the lobby",
+    Callback = function()
+        teleportTo(LobbyCFrame)
+    end
+})
+
+Tabs.Teleports:AddButton({
+    Title = "Teleport to Map",
+    Description = "Teleports you to the map",
+    Callback = function()
+        teleportTo(MapCFrame)
+    end
+})
+
+Tabs.Misc:AddButton({
+    Title = "Gives u GreenBalloon",
+    Description = "Yes frfrfr",
+    Callback = function()
+        local player = game.Players.LocalPlayer.Name
+        while true do
+            if game.Workspace:FindFirstChild("GreenBalloon") then
+                if not game.Workspace[player]:FindFirstChild("GreenBalloon") and not game.Players.LocalPlayer.Backpack:FindFirstChild("GreenBalloon") then
+                    local workspaceClone = game.Workspace.GreenBalloon:Clone()
+                    workspaceClone.Parent = game.Workspace[player]
+                end
+            else
+                local balloonCheck = game.Workspace:GetDescendants()
+                local balloonClone
+                for i, balloon in ipairs(balloonCheck) do
+                    if balloon.Name == "GreenBalloon" then
+                        balloonClone = balloon:Clone()
+                        break
+                    end
+                end
+                if balloonClone then
+                    balloonClone.Parent = game.Workspace
+                    local playerClone = game.Workspace.GreenBalloon:Clone()
+                    playerClone.Parent = game.Workspace[player]
+                end
+            end
+            wait(1)
+        end
+    end
+})
+
+local function NotifyDisaster(character)
+    local Tag = character:FindFirstChild("SurvivalTag")
+    if Tag then
+        game:GetService("StarterGui"):SetCore("SendNotification", {
+            Title = "Disaster Detected",
+            Text = "" .. Tag.Value,
+            Button1 = "Gotcha",
+            Duration = 260,
+        })
+    end
+
+    local function Repeat(R)
+        R.ChildAdded:connect(function(Find)
+            if Find.Name == "SurvivalTag" then
+                game:GetService("StarterGui"):SetCore("SendNotification", {
+                    Title = "Disaster Detected",
+                    Text = "" .. Find.Value,
+                    Button1 = "Gotcha",
+                    Duration = 20,
+                })
+            end
+        end)
+    end
+
+    Repeat(character)
+    game:GetService("Players").LocalPlayer.CharacterAdded:connect(function(R)
+        Repeat(R)
+    end)
+end
+
+Tabs.DisasterLog:AddToggle("Toggle Disaster Notification", {
+    Title = "Enable Disaster Notification",
+    Default = false,
+    Callback = function(Value)
+        getgenv().sendox = Value
+        local Character = game:GetService("Players").LocalPlayer.Character
+        if getgenv().sendox then
+            NotifyDisaster(Character)
+        end
+    end
+})
+
+Tabs.DisasterLog:AddToggle("Toggle Map Vote Visibility", {
+    Title = "Enable Map Vote Visibility",
+    Default = false,
+    Callback = function(Value)
+        getgenv().sendox = Value
+        local player = game:GetService("Players").LocalPlayer
+        local TextLabel = player.PlayerGui.MainGui.MapVotePage
+        TextLabel.Visible = getgenv().sendox
+    end
+})
+
+SaveManager:SetLibrary(Fluent)
+InterfaceManager:SetLibrary(Fluent)
+
+InterfaceManager:BuildInterfaceSection(Tabs.Settings)
+SaveManager:BuildConfigSection(Tabs.Settings)

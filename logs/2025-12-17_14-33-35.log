@@ -1,0 +1,233 @@
+[2025-12-17 14:33:35.118] [Xeno] [trace] Xeno is only maintained by Rizve. If you find any bugs, have any question, or just want to chat email me rizve@xeno.onl or DM me on Discord: .rizve
+[2025-12-17 14:33:35.119] [Xeno] [info] Version: Xeno - v1.3.10
+[2025-12-17 14:33:35.119] [Xeno] [info] Log file: C:\Users\rudha\Desktop\RC7 Exploit Engine\RC7 [Blue-Theme]\logs\2025-12-17_14-33-35.log
+[2025-12-17 14:33:35.125] [Xeno] [debug] Client Checker thread: 0x133d650
+[2025-12-17 14:33:35.125] [Xeno] [debug] Xeno Caching thread: 0x133d640
+[2025-12-17 14:33:35.125] [Xeno] [debug] WebSockets Cleaner thread: 0x133d630
+[2025-12-17 14:33:35.125] [Xeno] [debug] Xeno Server thread: 0x133d620
+[2025-12-17 14:33:35.125] [Cache] [info] Caching file: C:\Users\rudha\AppData\Local\Xeno\XENO_CACHE.bin
+[2025-12-17 14:33:35.127] [Cache] [warning] Invalid or corrupted cache header (file: C:\Users\rudha\AppData\Local\Xeno\XENO_CACHE.bin)
+[2025-12-17 14:33:35.127] [Cache] [warning] No valid cache found (Starting new fresh cache)
+[2025-12-17 14:33:35.127] [Cache] [info] Inviting you to our Official Discord server :D https://discord.gg/xe-no
+[2025-12-17 14:33:35.128] [Server] [info] Xeno Server is Live on http://localhost:3110
+[2025-12-17 14:33:35.128] [Server] [info] Visit http://localhost:3110 to view any additional information
+[2025-12-17 14:33:35.139] [Xeno] [info] Creating new RBXClient: 10972
+[2025-12-17 14:33:35.139] [RBXClient] [info] [10972]: Initializing...
+[2025-12-17 14:33:35.140] [RBXClient] [info] [10972]: Version: version-eaebe135b3ec446b
+[2025-12-17 14:33:35.140] [Xeno] [debug] Created RBXClient instance @0x253580f0
+[2025-12-17 14:33:35.140] [Xeno] [info] Successfully created RBXClient: 10972
+[2025-12-17 14:33:35.140] [RBXClient] [trace] [10972]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-17 14:33:35.263] [RBXClient] [trace] [10972]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-17 14:33:35.264] [RBXClient] [debug] [10972]: Fetching DataModel...
+[2025-12-17 14:33:35.324] [RBXClient] [debug] [10972]: 	String: 0x24e0aa96350
+[2025-12-17 14:33:35.324] [RBXClient] [debug] [10972]: 	RenderView: 0x24e0cda4000
+[2025-12-17 14:33:35.327] [RBXClient] [debug] [10972]: DataModel (LuaApp): 0x24e0191c238
+[2025-12-17 14:33:35.330] [RBXClient] [debug] [10972]: LocalPlayer: 0x24e0d480080
+[2025-12-17 14:33:35.330] [RBXClient] [debug] [rudhaFSI (10972)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-17 14:33:35.331] [RBXClient] [trace] [rudhaFSI (10972)]: Attaching through the home page.
+[2025-12-17 14:33:35.740] [RBXClient] [debug] [rudhaFSI (10972)]: SharedString: 0x24e03efdb80
+[2025-12-17 14:33:35.742] [RBXClient] [debug] [rudhaFSI (10972)]: SharedString: 0x24e06d2b740
+[2025-12-17 14:33:35.751] [RBXClient] [debug] [rudhaFSI (10972)]: SharedString: 0x24e0779b580
+[2025-12-17 14:33:35.758] [RBXClient] [debug] [rudhaFSI (10972)]: SharedString: 0x24e1ac173c0
+[2025-12-17 14:33:35.763] [RBXClient] [info] [rudhaFSI (10972)]: Bytecode has been successfully set in menu.
+[2025-12-17 14:33:39.341] [Execution] [error] [10972]: Could not find a CoreModule
+[2025-12-17 14:33:39.363] [Execution] [error] [10972]: Could not find a CoreModule
+[2025-12-17 14:34:08.566] [Execution] [error] [10972]: Could not find a CoreModule
+[2025-12-17 14:34:29.804] [RBXClient] [trace] [rudhaFSI (10972)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-17 14:38:09.264] [Xeno] [info] Removed RBXClient: 10972
+[2025-12-17 14:38:14.275] [Xeno] [info] Cleaned up '10972' from InitializedClients
+[2025-12-17 14:39:01.752] [Xeno] [info] Creating new RBXClient: 8764
+[2025-12-17 14:39:01.752] [RBXClient] [info] [8764]: Initializing...
+[2025-12-17 14:39:01.753] [RBXClient] [info] [8764]: Version: version-eaebe135b3ec446b
+[2025-12-17 14:39:01.753] [Xeno] [debug] Created RBXClient instance @0x2ef457a0
+[2025-12-17 14:39:01.753] [Xeno] [info] Successfully created RBXClient: 8764
+[2025-12-17 14:39:01.753] [RBXClient] [trace] [8764]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-17 14:39:01.828] [RBXClient] [trace] [8764]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-17 14:39:01.829] [RBXClient] [debug] [8764]: Fetching DataModel...
+[2025-12-17 14:39:01.914] [RBXClient] [debug] [8764]: 	String: 0x19a8e2c6350
+[2025-12-17 14:39:01.914] [RBXClient] [debug] [8764]: 	RenderView: 0x19a8ed54000
+[2025-12-17 14:39:01.916] [RBXClient] [debug] [8764]: DataModel (LuaApp): 0x19a821fc238
+[2025-12-17 14:39:01.919] [RBXClient] [debug] [8764]: LocalPlayer: 0x19a83e12080
+[2025-12-17 14:39:01.919] [RBXClient] [debug] [rudhaFSI (8764)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-17 14:39:01.920] [RBXClient] [trace] [rudhaFSI (8764)]: Attaching through the home page.
+[2025-12-17 14:39:02.335] [RBXClient] [debug] [rudhaFSI (8764)]: SharedString: 0x19a8a87b4c0
+[2025-12-17 14:39:02.361] [RBXClient] [debug] [rudhaFSI (8764)]: SharedString: 0x19a8b47b380
+[2025-12-17 14:39:02.390] [RBXClient] [debug] [rudhaFSI (8764)]: SharedString: 0x19a9bf5ca40
+[2025-12-17 14:39:02.392] [RBXClient] [debug] [rudhaFSI (8764)]: SharedString: 0x19a9cde5480
+[2025-12-17 14:39:02.392] [RBXClient] [info] [rudhaFSI (8764)]: Bytecode has been successfully set in menu.
+[2025-12-17 14:39:05.772] [Execution] [error] [8764]: Could not find a CoreModule
+[2025-12-17 14:39:05.780] [Execution] [error] [8764]: Could not find a CoreModule
+[2025-12-17 14:39:22.327] [RBXClient] [trace] [rudhaFSI (8764)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-17 14:48:54.658] [Xeno] [info] Removed RBXClient: 8764
+[2025-12-17 14:48:59.664] [Xeno] [info] Cleaned up '8764' from InitializedClients
+[2025-12-17 14:49:12.563] [Xeno] [info] Creating new RBXClient: 5860
+[2025-12-17 14:49:12.563] [RBXClient] [info] [5860]: Initializing...
+[2025-12-17 14:49:12.563] [RBXClient] [info] [5860]: Version: version-eaebe135b3ec446b
+[2025-12-17 14:49:12.563] [Xeno] [debug] Created RBXClient instance @0x2ef45360
+[2025-12-17 14:49:12.563] [Xeno] [info] Successfully created RBXClient: 5860
+[2025-12-17 14:49:12.564] [RBXClient] [trace] [5860]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-17 14:49:12.632] [RBXClient] [trace] [5860]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-17 14:49:12.633] [RBXClient] [debug] [5860]: Fetching DataModel...
+[2025-12-17 14:49:12.740] [RBXClient] [debug] [5860]: 	String: 0x1aa8bce6350
+[2025-12-17 14:49:12.740] [RBXClient] [debug] [5860]: 	RenderView: 0x1aa8c754000
+[2025-12-17 14:49:12.742] [RBXClient] [debug] [5860]: DataModel (LuaApp): 0x1aa8191c238
+[2025-12-17 14:49:12.744] [RBXClient] [debug] [5860]: LocalPlayer: 0x1aa8c440080
+[2025-12-17 14:49:12.744] [RBXClient] [debug] [rudhaFSI (5860)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-17 14:49:12.746] [RBXClient] [trace] [rudhaFSI (5860)]: Attaching through the home page.
+[2025-12-17 14:49:13.819] [RBXClient] [debug] [rudhaFSI (5860)]: SharedString: 0x1aa882cac80
+[2025-12-17 14:49:13.848] [RBXClient] [debug] [rudhaFSI (5860)]: SharedString: 0x1aa88bcac00
+[2025-12-17 14:49:13.870] [RBXClient] [debug] [rudhaFSI (5860)]: SharedString: 0x1aa8d1712c0
+[2025-12-17 14:49:13.878] [RBXClient] [debug] [rudhaFSI (5860)]: SharedString: 0x1aa93f81280
+[2025-12-17 14:49:13.880] [RBXClient] [info] [rudhaFSI (5860)]: Bytecode has been successfully set in menu.
+[2025-12-17 14:49:16.595] [Execution] [error] [5860]: Could not find a CoreModule
+[2025-12-17 14:49:16.603] [Execution] [error] [5860]: Could not find a CoreModule
+[2025-12-17 14:50:10.496] [RBXClient] [trace] [rudhaFSI (5860)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-17 14:52:33.140] [Xeno] [info] Removed RBXClient: 5860
+[2025-12-17 14:52:38.142] [Xeno] [info] Cleaned up '5860' from InitializedClients
+[2025-12-17 14:53:29.503] [Xeno] [info] Creating new RBXClient: 14012
+[2025-12-17 14:53:29.504] [RBXClient] [info] [14012]: Initializing...
+[2025-12-17 14:53:29.504] [RBXClient] [info] [14012]: Version: version-eaebe135b3ec446b
+[2025-12-17 14:53:29.504] [Xeno] [debug] Created RBXClient instance @0x2f544b50
+[2025-12-17 14:53:29.504] [Xeno] [info] Successfully created RBXClient: 14012
+[2025-12-17 14:53:29.504] [RBXClient] [trace] [14012]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-17 14:53:29.559] [RBXClient] [trace] [14012]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-17 14:53:29.559] [RBXClient] [debug] [14012]: Fetching DataModel...
+[2025-12-17 14:53:29.697] [RBXClient] [debug] [14012]: 	String: 0x2583a4124d0
+[2025-12-17 14:53:29.697] [RBXClient] [debug] [14012]: 	RenderView: 0x25829804000
+[2025-12-17 14:53:29.699] [RBXClient] [debug] [14012]: DataModel (Ugc): 0x2582d60aa38
+[2025-12-17 14:53:29.702] [RBXClient] [debug] [14012]: LocalPlayer: 0x2582fd41080
+[2025-12-17 14:53:29.702] [RBXClient] [debug] [rudhaFSI (14012)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-17 14:53:29.703] [RBXClient] [trace] [rudhaFSI (14012)]: Attaching in-game using translation module.
+[2025-12-17 14:53:29.705] [RBXClient] [debug] [rudhaFSI (14012)]: EventConnection: 0x258321d91c0, SharedString: 0x258384a1880
+[2025-12-17 14:53:30.130] [RBXClient] [trace] [rudhaFSI (14012)]: Intercepted translation module @0x258321dc100
+[2025-12-17 14:53:30.171] [RBXClient] [trace] [rudhaFSI (14012)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-17 14:53:33.613] [Execution] [warning] [14012]: Could not verify that the execution module has changed. Script may not be executed!
+[2025-12-17 15:04:04.097] [RBXClient] [trace] [rudhaFSI (14012)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:04:04.217] [RBXClient] [trace] [rudhaFSI (14012)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:15:14.081] [Execution] [error] [14012]: Could not find a CoreModule
+[2025-12-17 15:15:34.849] [RBXClient] [trace] [rudhaFSI (14012)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:15:34.973] [RBXClient] [trace] [rudhaFSI (14012)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:15:51.217] [Xeno] [info] Removed RBXClient: 14012
+[2025-12-17 15:15:56.226] [Xeno] [info] Cleaned up '14012' from InitializedClients
+[2025-12-17 15:16:07.047] [Xeno] [info] Creating new RBXClient: 5368
+[2025-12-17 15:16:07.047] [RBXClient] [info] [5368]: Initializing...
+[2025-12-17 15:16:07.047] [RBXClient] [info] [5368]: Version: version-eaebe135b3ec446b
+[2025-12-17 15:16:07.047] [Xeno] [debug] Created RBXClient instance @0x2f3f5d50
+[2025-12-17 15:16:07.047] [Xeno] [info] Successfully created RBXClient: 5368
+[2025-12-17 15:16:07.048] [RBXClient] [trace] [5368]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-17 15:16:07.104] [RBXClient] [trace] [5368]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-17 15:16:07.105] [RBXClient] [debug] [5368]: Fetching DataModel...
+[2025-12-17 15:16:07.276] [RBXClient] [debug] [5368]: 	String: 0x1f73a8d6350
+[2025-12-17 15:16:07.276] [RBXClient] [debug] [5368]: 	RenderView: 0x1f73b414000
+[2025-12-17 15:16:07.279] [RBXClient] [debug] [5368]: DataModel (LuaApp): 0x1f7307ac238
+[2025-12-17 15:16:07.281] [RBXClient] [debug] [5368]: LocalPlayer: 0x1f731a02080
+[2025-12-17 15:16:07.282] [RBXClient] [debug] [rudhaFSI (5368)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-17 15:16:07.283] [RBXClient] [trace] [rudhaFSI (5368)]: Attaching through the home page.
+[2025-12-17 15:16:08.356] [RBXClient] [debug] [rudhaFSI (5368)]: SharedString: 0x1f73238ca00
+[2025-12-17 15:16:08.361] [RBXClient] [debug] [rudhaFSI (5368)]: SharedString: 0x1f732a3b140
+[2025-12-17 15:16:08.362] [RBXClient] [debug] [rudhaFSI (5368)]: SharedString: 0x1f73734bac0
+[2025-12-17 15:16:08.386] [RBXClient] [debug] [rudhaFSI (5368)]: SharedString: 0x1f737b3b800
+[2025-12-17 15:16:08.407] [RBXClient] [info] [rudhaFSI (5368)]: Bytecode has been successfully set in menu.
+[2025-12-17 15:16:11.073] [Execution] [error] [5368]: Could not find a CoreModule
+[2025-12-17 15:16:11.081] [Execution] [error] [5368]: Could not find a CoreModule
+[2025-12-17 15:16:24.901] [RBXClient] [trace] [rudhaFSI (5368)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-17 15:17:10.091] [Xeno] [info] Removed RBXClient: 5368
+[2025-12-17 15:17:15.100] [Xeno] [info] Cleaned up '5368' from InitializedClients
+[2025-12-17 15:17:26.964] [Xeno] [info] Creating new RBXClient: 10168
+[2025-12-17 15:17:26.964] [RBXClient] [info] [10168]: Initializing...
+[2025-12-17 15:17:26.964] [RBXClient] [info] [10168]: Version: version-eaebe135b3ec446b
+[2025-12-17 15:17:26.964] [Xeno] [debug] Created RBXClient instance @0x2f3fae10
+[2025-12-17 15:17:26.964] [Xeno] [info] Successfully created RBXClient: 10168
+[2025-12-17 15:17:26.965] [RBXClient] [trace] [10168]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-17 15:17:27.020] [RBXClient] [trace] [10168]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-17 15:17:27.021] [RBXClient] [debug] [10168]: Fetching DataModel...
+[2025-12-17 15:17:27.173] [RBXClient] [debug] [10168]: 	String: 0x20c94ec6350
+[2025-12-17 15:17:27.173] [RBXClient] [debug] [10168]: 	RenderView: 0x20c958f4000
+[2025-12-17 15:17:27.173] [RBXClient] [info] [10168]: 	Waiting for DataModel...
+[2025-12-17 15:17:27.399] [RBXClient] [debug] [10168]: DataModel (Ugc): 0x20c9952ce38
+[2025-12-17 15:17:27.400] [RBXClient] [info] [10168]: Waiting for LocalPlayer...
+[2025-12-17 15:17:29.242] [RBXClient] [debug] [10168]: LocalPlayer: 0x20ca09b4080
+[2025-12-17 15:17:29.242] [RBXClient] [debug] [rudhaFSI (10168)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-17 15:17:29.243] [RBXClient] [trace] [rudhaFSI (10168)]: Attaching in-game using translation module.
+[2025-12-17 15:17:29.244] [RBXClient] [debug] [rudhaFSI (10168)]: EventConnection: 0x20c9a6c9540, SharedString: 0x20c9a6e8e40
+[2025-12-17 15:17:29.633] [RBXClient] [trace] [rudhaFSI (10168)]: Intercepted translation module @0x20c9a6cc480
+[2025-12-17 15:17:29.668] [RBXClient] [trace] [rudhaFSI (10168)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-17 15:17:31.052] [Execution] [warning] [10168]: Could not verify that the execution module has changed. Script may not be executed!
+[2025-12-17 15:25:59.442] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:25:59.568] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:28:37.605] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:28:37.728] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:32:57.507] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:32:57.621] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:33:35.813] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:33:35.942] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:39:47.732] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:39:47.861] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:43:17.033] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:43:17.152] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:46:08.098] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:46:08.225] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:46:15.215] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:46:15.339] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:46:45.022] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:46:45.147] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 15:56:04.791] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 15:56:04.907] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 16:06:03.330] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 16:06:03.449] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 16:15:02.212] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 16:15:02.330] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 16:17:16.127] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 16:17:16.243] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 16:25:46.084] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: Waiting for DataModel
+[2025-12-17 16:25:46.212] [RBXClient] [trace] [rudhaFSI (10168)][::CRefresh]: DataModel was loaded successfully
+[2025-12-17 16:35:09.189] [Xeno] [info] Removed RBXClient: 10168
+[2025-12-17 16:35:14.190] [Xeno] [info] Cleaned up '10168' from InitializedClients
+[2025-12-17 16:38:35.089] [Xeno] [info] Creating new RBXClient: 8116
+[2025-12-17 16:38:35.090] [RBXClient] [info] [8116]: Initializing...
+[2025-12-17 16:38:35.090] [RBXClient] [info] [8116]: Version: version-eaebe135b3ec446b
+[2025-12-17 16:38:35.090] [Xeno] [debug] Created RBXClient instance @0x2ef424a0
+[2025-12-17 16:38:35.090] [Xeno] [info] Successfully created RBXClient: 8116
+[2025-12-17 16:38:35.090] [RBXClient] [trace] [8116]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-17 16:38:35.169] [RBXClient] [trace] [8116]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-17 16:38:35.170] [RBXClient] [debug] [8116]: Fetching DataModel...
+[2025-12-17 16:38:35.309] [RBXClient] [debug] [8116]: 	String: 0x27eb2376350
+[2025-12-17 16:38:35.309] [RBXClient] [debug] [8116]: 	RenderView: 0x27eb27b4000
+[2025-12-17 16:38:35.311] [RBXClient] [debug] [8116]: DataModel (LuaApp): 0x27ea535c238
+[2025-12-17 16:38:35.314] [RBXClient] [debug] [8116]: LocalPlayer: 0x27ea7ba1080
+[2025-12-17 16:38:35.314] [RBXClient] [debug] [rudhaFSI (8116)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-17 16:38:35.315] [RBXClient] [trace] [rudhaFSI (8116)]: Attaching through the home page.
+[2025-12-17 16:38:36.387] [RBXClient] [debug] [rudhaFSI (8116)]: SharedString: 0x27eaaddb100
+[2025-12-17 16:38:36.396] [RBXClient] [debug] [rudhaFSI (8116)]: SharedString: 0x27ead37da00
+[2025-12-17 16:38:36.397] [RBXClient] [debug] [rudhaFSI (8116)]: SharedString: 0x27eb0b50240
+[2025-12-17 16:38:36.428] [RBXClient] [debug] [rudhaFSI (8116)]: SharedString: 0x27eb841e300
+[2025-12-17 16:38:36.439] [RBXClient] [info] [rudhaFSI (8116)]: Bytecode has been successfully set in menu.
+[2025-12-17 16:38:39.116] [Execution] [error] [8116]: Could not find a CoreModule
+[2025-12-17 16:38:39.124] [Execution] [error] [8116]: Could not find a CoreModule
+[2025-12-17 16:38:57.928] [RBXClient] [trace] [rudhaFSI (8116)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-17 16:55:21.273] [Xeno] [info] Removed RBXClient: 8116
+[2025-12-17 16:55:26.274] [Xeno] [info] Cleaned up '8116' from InitializedClients
+[2025-12-17 16:57:23.579] [Xeno] [info] Creating new RBXClient: 12476
+[2025-12-17 16:57:23.579] [RBXClient] [info] [12476]: Initializing...
+[2025-12-17 16:57:23.579] [RBXClient] [info] [12476]: Version: version-eaebe135b3ec446b
+[2025-12-17 16:57:23.580] [Xeno] [debug] Created RBXClient instance @0x2ef437c0
+[2025-12-17 16:57:23.580] [Xeno] [info] Successfully created RBXClient: 12476
+[2025-12-17 16:57:23.580] [RBXClient] [trace] [12476]: Attempting to retrieve RBXClient data from endpoint...
+[2025-12-17 16:57:23.647] [RBXClient] [trace] [12476]: Successfully retrieved RBXClient data from endpoint using curl.
+[2025-12-17 16:57:23.648] [RBXClient] [debug] [12476]: Fetching DataModel...
+[2025-12-17 16:57:23.741] [RBXClient] [debug] [12476]: 	String: 0x1f00cbe6350
+[2025-12-17 16:57:23.741] [RBXClient] [debug] [12476]: 	RenderView: 0x1f00d624000
+[2025-12-17 16:57:23.743] [RBXClient] [debug] [12476]: DataModel (LuaApp): 0x1f00257c238
+[2025-12-17 16:57:23.746] [RBXClient] [debug] [12476]: LocalPlayer: 0x1f004151080
+[2025-12-17 16:57:23.746] [RBXClient] [debug] [rudhaFSI (12476)]: LocalPlayer Name: 'rudhaFSI'
+[2025-12-17 16:57:23.748] [RBXClient] [trace] [rudhaFSI (12476)]: Attaching through the home page.
+[2025-12-17 16:57:24.815] [RBXClient] [debug] [rudhaFSI (12476)]: SharedString: 0x1f009b6d600
+[2025-12-17 16:57:24.833] [RBXClient] [debug] [rudhaFSI (12476)]: SharedString: 0x1f00b3c05c0
+[2025-12-17 16:57:24.847] [RBXClient] [debug] [rudhaFSI (12476)]: SharedString: 0x1f013c35a40
+[2025-12-17 16:57:24.865] [RBXClient] [debug] [rudhaFSI (12476)]: SharedString: 0x1f01b3f4f80
+[2025-12-17 16:57:24.869] [RBXClient] [info] [rudhaFSI (12476)]: Bytecode has been successfully set in menu.
+[2025-12-17 16:57:27.599] [Execution] [error] [12476]: Could not find a CoreModule
+[2025-12-17 16:57:27.607] [Execution] [error] [12476]: Could not find a CoreModule
+[2025-12-17 16:58:05.180] [RBXClient] [trace] [rudhaFSI (12476)]: Attach ping received from client "rudhaFSI", This indicates everything was successful.
+[2025-12-17 16:58:48.989] [Xeno] [info] Removed RBXClient: 12476
+[2025-12-17 16:58:53.990] [Xeno] [info] Cleaned up '12476' from InitializedClients
